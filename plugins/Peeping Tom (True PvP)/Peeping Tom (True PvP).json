@@ -1,7 +1,7 @@
 {
   "Author": "Anna",
   "Name": "Peeping Tom (True PvP)",
-  "InternalName": "PeepingTom",
+  "InternalName": "Peeping Tom (True PvP)",
   "AssemblyVersion": "1.7.16",
   "Description": "Shows who is currently or was previously targeting you.",
   "ApplicableVersion": "any",

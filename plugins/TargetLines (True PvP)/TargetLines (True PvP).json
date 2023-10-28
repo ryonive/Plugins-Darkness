@@ -1,7 +1,7 @@
 {
   "Author": "Drahsid",
   "Name": "Target Lines (True PvP)",
-  "InternalName": "TargetLines",
+  "InternalName": "TargetLines (True PvP)",
   "AssemblyVersion": "1.3.1.0",
   "Description": "Customizable target lines",
   "ApplicableVersion": "any",
