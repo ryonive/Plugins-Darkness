@@ -21,33 +21,6 @@
         "DownloadLinkTesting":  "https://github.com/ryonive/Plugins-Darkness/raw/main/plugins/Peeping Tom (True PvP)/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/ryonive/Plugins-Darkness/raw/main/plugins/Peeping Tom (True PvP)/latest.zip"
     },
-  {
-    "Author": "Karlin",
-    "Name": "PvPSelector",
-    "InternalName": "PvPSelector",
-    "AssemblyVersion": "2.1.6.0",
-    "Description": "A plugin that allows you to select the enemy with the lowest currentHp in your range.",
-    "ApplicableVersion": "any",
-    "RepoUrl": "",
-    "Tags": [
-      "PvP",
-      "Auto",
-      "Karlin"
-    ],
-    "DalamudApiLevel": 9,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
-    "Punchline": "PvP helper",
-    "AcceptsFeedback": true,
-    "IsHide": "False",
-    "IsTestingExclusive": "False",
-    "LastUpdate": "1699608987",
-    "DownloadLinkInstall": "https://github.com/Karlin-Z/DalamudPlugins/raw/Global/plugins/PvPSelector/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Karlin-Z/DalamudPlugins/raw/Global/plugins/PvPSelector/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Karlin-Z/DalamudPlugins/raw/Global/plugins/PvPSelector/latest.zip"
-  },
     {
         "Author":  "Drahsid",
         "Name":  "Target Lines (True PvP)",
