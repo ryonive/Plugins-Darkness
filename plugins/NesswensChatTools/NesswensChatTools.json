@@ -1,0 +1,18 @@
+{
+  "Author": "N'esswen Latteh",
+  "Name": "N'esswen's Chat Tools",
+  "InternalName": "NesswensChatTools",
+  "AssemblyVersion": "1.0.9.0",
+  "Description": "N'esswen's chat tools for additional message filtering. Use /nct to set up.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Utility"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "N'esswen's chat tools for additional message filtering.",
+  "AcceptsFeedback": true
+}
