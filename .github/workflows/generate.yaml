@@ -1,0 +1,34 @@
+name: Generate PluginMaster
+on: 
+  page_build:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    name: Generate PluginMaster
+    if: contains(github.event.head_commit.message, '[Release]')
+    runs-on: windows-2019
+    steps:
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+      - uses: actions/checkout@v1
+      - name: Run generator
+        run: .\Make-PluginMaster.ps1
+      - name: Commit files
+        continue-on-error: true
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Generate PluginMaster" -a
+      - name: Push changes
+        continue-on-error: true
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+
