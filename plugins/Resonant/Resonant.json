@@ -1,0 +1,21 @@
+{
+  "Author": "Aulus mal Asina,ryon5541",
+  "Name": "Resonant",
+  "InternalName": "Resonant",
+  "AssemblyVersion": "0.0.0.8",
+  "Description": "Displays accurate player hitbox and positional outlines.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/aulus-asina/resonant",
+  "Tags": [
+    "combat"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/ryon5541/Plugins/Icon/resonant.png",
+  "Punchline": "A power worthy of Lord Zenos",
+  "Changelog": "- .NET8 Support",
+  "AcceptsFeedback": true
+}
