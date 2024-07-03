@@ -172,7 +172,7 @@
     "Author": "Aulus mal Asina,ryon5541",
     "Name": "Resonant",
     "InternalName": "Resonant",
-    "AssemblyVersion": "0.0.0.8",
+    "AssemblyVersion": "0.0.0.9",
     "Description": "Displays accurate player hitbox and positional outlines.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/aulus-asina/resonant",
@@ -190,7 +190,7 @@
     "AcceptsFeedback": true,
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1720007689",
+    "LastUpdate": "1720008171",
     "DownloadLinkInstall": "https://github.com/ryonive/Plugins-Darkness/raw/main/plugins/Resonant/latest.zip",
     "DownloadLinkTesting": "https://github.com/ryonive/Plugins-Darkness/raw/main/plugins/Resonant/latest.zip",
     "DownloadLinkUpdate": "https://github.com/ryonive/Plugins-Darkness/raw/main/plugins/Resonant/latest.zip"
